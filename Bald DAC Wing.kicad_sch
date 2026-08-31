@@ -3981,6 +3981,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "My Library:TestPoint_Harwin"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Harwin"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My Libraries:Harwin-S1751-46-Test-Point"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Harwin_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Harwin_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4488,6 +4612,16 @@
 		)
 		(uuid "0af3991b-be39-4327-b7be-5ad70a4ef827")
 	)
+	(text "TODO: the latches don't need multiplexed OE."
+		(exclude_from_sim no)
+		(at 110.236 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26d226b7-4452-46b6-9a98-e4538db318ae")
+	)
 	(text "OUTPUT SETTLING TIME\n\nThe amount of time for the output to settle to a specified level for a\nfull-scale input change. For these devices, it is specified with a 100\nΩ resistor to ground"
 		(exclude_from_sim no)
 		(at 208.026 169.164 0)
@@ -4509,6 +4643,16 @@
 		)
 		(uuid "3e22e205-1b6f-4100-b7e4-bc22cd7d196d")
 	)
+	(text "TODO: Tie RW low. Can't use R because of the latches."
+		(exclude_from_sim no)
+		(at 178.816 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "630c3603-b176-4ac6-91e3-ca81eb425785")
+	)
 	(text "Change MLCCs to 10u"
 		(exclude_from_sim no)
 		(at 205.994 24.638 0)
@@ -4528,6 +4672,26 @@
 			)
 		)
 		(uuid "8bd9feaf-3dfe-497e-83ee-eb15abdc1d77")
+	)
+	(text "TODO: Pull unused inputs down and add Test points."
+		(exclude_from_sim no)
+		(at 320.04 179.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a037291b-e8ff-4646-a862-5a2dd7a06ab9")
+	)
+	(text "TODO: Add V Reference and headers for Vrefs"
+		(exclude_from_sim no)
+		(at 174.498 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acdda680-94a8-4356-937b-e2a2e1933b20")
 	)
 	(text "0"
 		(exclude_from_sim no)
@@ -4570,6 +4734,16 @@
 		)
 		(uuid "d1509e5b-dc48-4d73-81db-123ba0a16b61")
 	)
+	(text "TODO: Change Pulls to 10k (instead of 1k)"
+		(exclude_from_sim no)
+		(at 171.45 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd4952a1-a093-48a8-8966-3162ce493267")
+	)
 	(junction
 		(at 340.36 52.07)
 		(diameter 0)
@@ -4607,22 +4781,10 @@
 		(uuid "6c6078a4-7ce2-47aa-acf6-70afd70d00f0")
 	)
 	(junction
-		(at 124.46 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d18f53b-422f-40a2-810d-f40176937370")
-	)
-	(junction
 		(at 176.53 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84b62b6b-7e1b-48ab-9690-0e1ec4bb8d83")
-	)
-	(junction
-		(at 124.46 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cbcc047-2d80-4d3e-a8c9-fc3b38f5f003")
 	)
 	(junction
 		(at 53.34 165.1)
@@ -4758,7 +4920,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 81.28) (xy 110.49 81.28)
+			(xy 105.41 81.28) (xy 107.95 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4795,16 +4957,6 @@
 			(type default)
 		)
 		(uuid "16ef4113-fe7a-4d24-bf7c-94abb2bbb536")
-	)
-	(wire
-		(pts
-			(xy 124.46 78.74) (xy 124.46 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1927ac00-0c13-413a-a563-3eaa79f62e07")
 	)
 	(wire
 		(pts
@@ -4945,6 +5097,16 @@
 			(type default)
 		)
 		(uuid "2d85e8a1-5c39-4bd9-aea9-5a70152c845d")
+	)
+	(wire
+		(pts
+			(xy 105.41 165.1) (xy 107.95 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6be602-f463-44a0-91a1-7c5104edfc58")
 	)
 	(wire
 		(pts
@@ -5108,26 +5270,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 78.74) (xy 124.46 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4142a586-e3e8-465d-befe-21f24a2660e1")
-	)
-	(wire
-		(pts
-			(xy 124.46 165.1) (xy 115.57 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "464a95cd-d737-4413-91a5-70cd4eb05e0d")
-	)
-	(wire
-		(pts
 			(xy 143.51 101.6) (xy 153.67 101.6)
 		)
 		(stroke
@@ -5258,6 +5400,26 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 151.13) (xy 320.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c22e99-04e6-4f4a-ad37-f58528fb121a")
+	)
+	(wire
+		(pts
+			(xy 105.41 162.56) (xy 107.95 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b21e14-fb8b-4a2e-ae5f-a71e8738a794")
+	)
+	(wire
+		(pts
 			(xy 194.31 69.85) (xy 194.31 50.8)
 		)
 		(stroke
@@ -5335,16 +5497,6 @@
 			(type default)
 		)
 		(uuid "743ffdfd-e5d1-4596-9404-e656a27319ce")
-	)
-	(wire
-		(pts
-			(xy 124.46 162.56) (xy 124.46 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74eaf385-b1a7-4cd0-8b42-eac18e9cfa20")
 	)
 	(wire
 		(pts
@@ -5438,13 +5590,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 116.84 78.74)
+			(xy 105.41 78.74) (xy 107.95 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82e5a46c-12ac-4571-98a8-c8eb047dbf00")
+	)
+	(wire
+		(pts
+			(xy 320.04 161.29) (xy 320.04 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840fbdf4-7a2e-4ea8-927c-cf495c704592")
 	)
 	(wire
 		(pts
@@ -5485,16 +5647,6 @@
 			(type default)
 		)
 		(uuid "87ca2b49-d2c5-4d91-a2f5-d69bdf53761b")
-	)
-	(wire
-		(pts
-			(xy 121.92 162.56) (xy 124.46 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e4592d-b037-407a-8e3d-3a4026a3669e")
 	)
 	(wire
 		(pts
@@ -5545,16 +5697,6 @@
 			(type default)
 		)
 		(uuid "916a45f5-0a0d-4991-9db9-410dba96e866")
-	)
-	(wire
-		(pts
-			(xy 105.41 162.56) (xy 116.84 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9214e913-bf98-4a5d-bce3-81bbb645713e")
 	)
 	(wire
 		(pts
@@ -5848,16 +5990,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 165.1) (xy 110.49 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6979e73-20e1-42ca-a1dc-20316c57725e")
-	)
-	(wire
-		(pts
 			(xy 342.9 49.53) (xy 340.36 49.53)
 		)
 		(stroke
@@ -5968,16 +6100,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 81.28) (xy 115.57 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f06bccda-e581-4f76-8c4e-e2c24bff1050")
-	)
-	(wire
-		(pts
 			(xy 181.61 78.74) (xy 203.2 78.74)
 		)
 		(stroke
@@ -6045,6 +6167,16 @@
 			(type default)
 		)
 		(uuid "fa4719b6-025f-4384-b14e-1b4436ee8e7e")
+	)
+	(wire
+		(pts
+			(xy 196.85 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6551f7-6bc4-4835-8fed-79d90385f8d6")
 	)
 	(wire
 		(pts
@@ -7321,6 +7453,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 199.39 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3eaaca-a471-483f-8ad7-ac164d08c90d")
+		(property "Reference" "#PWR049"
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 199.39 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "595662d7-8308-4d0a-841f-75d64e1cdfc4")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 50.8 0)
 		(unit 1)
@@ -8222,6 +8432,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 307.34 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290e8aa3-2d5b-416a-875e-c75bfc4eded0")
+		(property "Reference" "#PWR048"
+			(at 307.34 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.34 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "059115ca-2a66-404e-85d3-ae359cc8abb6")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "My Library:AD8065ARTZ")
 		(at 223.52 97.79 0)
 		(unit 1)
@@ -8389,6 +8677,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 320.04 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32edd3e7-0a84-4c2a-ab6d-48d2144d1e74")
+		(property "Reference" "#PWR046"
+			(at 320.04 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 320.04 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8c840dd-3d19-434a-9c51-c9434b7963e2")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VEE")
 		(at 223.52 73.66 180)
 		(unit 1)
@@ -8461,6 +8827,84 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 320.04 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "438ad86e-fb4d-49c0-ac45-4d34a6601dea")
+		(property "Reference" "#PWR045"
+			(at 320.04 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 320.04 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 320.04 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e94747c-cf10-451d-a2ec-71ee6c889778")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8911,8 +9355,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 113.03 165.1 270)
+		(lib_id "power:VCC")
+		(at 307.34 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8920,9 +9364,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4abf104d-180f-46ed-a3cb-90ca69032700")
-		(property "Reference" "R66"
-			(at 113.03 170.18 90)
+		(fields_autoplaced yes)
+		(uuid "49794062-f0b5-4cc0-a3c4-d7af8c7e964f")
+		(property "Reference" "#PWR047"
+			(at 307.34 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8931,8 +9377,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 113.03 167.64 90)
+		(property "Value" "VCC"
+			(at 307.34 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8941,8 +9387,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 113.03 165.1 0)
+		(property "Footprint" ""
+			(at 307.34 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8953,7 +9399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 165.1 0)
+			(at 307.34 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8963,19 +9409,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 113.03 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 113.03 165.1 90)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 307.34 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8986,15 +9421,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef80fd9a-d027-40ec-9fb7-704c224f4d6f")
-		)
-		(pin "2"
-			(uuid "fa125a1c-4b9c-47d8-80e8-fc7ef053216b")
+			(uuid "689e50c1-f518-4c05-9232-783e0d335b7b")
 		)
 		(instances
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "R66")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9793,6 +10225,85 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Library:TestPoint_Harwin")
+		(at 107.95 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64509872-7308-4ff7-8160-e51df4a6fbf7")
+		(property "Reference" "TP3"
+			(at 113.03 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Harwin"
+			(at 113.03 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My Libraries:Harwin-S1751-46-Test-Point"
+			(at 107.95 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f42616b-fa66-4350-a56f-9a9b424ae6c7")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10779,6 +11290,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 194.31 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82d9f633-cc7f-430f-aaa2-72176288125f")
+		(property "Reference" "R73"
+			(at 194.31 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 194.31 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 194.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 194.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 194.31 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec407950-dd9b-4d2d-b15b-c2e1a6a33528")
+		)
+		(pin "2"
+			(uuid "a1737faf-247e-47e4-a908-1feb9cb3ea30")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "My Library:MountingHole_M2.5_Screw")
 		(at 273.05 248.92 0)
 		(unit 1)
@@ -11017,96 +11619,6 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 113.03 81.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8593aa75-6fb8-4ae0-9919-1c769e85d745")
-		(property "Reference" "R67"
-			(at 113.03 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 113.03 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 113.03 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 113.03 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 113.03 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22f956ae-c3f9-4ad7-81f9-dc5b05f63290")
-		)
-		(pin "2"
-			(uuid "054e41f2-12a9-4934-bd47-e006cc3c395c")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -11753,97 +12265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 119.38 78.74 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4bd52b4-ba17-485b-a4f6-49955c62cdb2")
-		(property "Reference" "R68"
-			(at 119.38 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 119.38 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 119.38 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 119.38 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 119.38 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f8a7a15-17dd-40a2-8352-29edb735c56d")
-		)
-		(pin "2"
-			(uuid "28bd1f4f-4f2d-46d0-8863-5dddac1dfdc5")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 393.7 45.72 270)
 		(unit 1)
@@ -12344,6 +12765,178 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 320.04 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae664548-e2d1-43e2-bdea-daf273b2d6bc")
+		(property "Reference" "C10"
+			(at 323.85 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 323.85 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 321.0052 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 320.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28323"
+			(at 320.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d04d657f-85a0-4372-8c60-6d950e31faf0")
+		)
+		(pin "2"
+			(uuid "5681b822-02cd-4b88-a562-e77123a56796")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Library:TestPoint_Harwin")
+		(at 107.95 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7c12e40-bd99-4135-9452-b63bbcee9dbb")
+		(property "Reference" "TP1"
+			(at 113.03 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Harwin"
+			(at 113.03 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My Libraries:Harwin-S1751-46-Test-Point"
+			(at 107.95 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffbf7bd4-4f95-4022-b755-cf7b68d8efdb")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 213.36 71.12 0)
 		(unit 1)
@@ -12417,6 +13010,122 @@
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "#PWR03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LV14")
+		(at 307.34 157.48 0)
+		(unit 7)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5168a59-5d1a-401c-8e46-9ef90f0b9dc7")
+		(property "Reference" "U6"
+			(at 307.34 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC14"
+			(at 307.34 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 307.34 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc14a-q1.pdf"
+			(at 307.34 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 307.34 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3a7ac898-6ce5-484b-9793-da63951a23b0")
+		)
+		(pin "2"
+			(uuid "4153c59d-2a80-4ebf-8805-c775c24e8ce9")
+		)
+		(pin "7"
+			(uuid "ed965173-8805-4a8f-86e4-f062da1797bb")
+		)
+		(pin "6"
+			(uuid "44ade803-7a94-46b1-beee-d6ca8f8d9a6f")
+		)
+		(pin "13"
+			(uuid "d08fafac-eae8-4aba-b958-364d9e5b6696")
+		)
+		(pin "14"
+			(uuid "cdd02907-efd3-4311-861e-f8f32ca63222")
+		)
+		(pin "1"
+			(uuid "a6d5bbaf-d0ca-46a4-81bb-ab99ae8e4c13")
+		)
+		(pin "11"
+			(uuid "83ab76a7-fd77-4813-990d-9dc207c6fde9")
+		)
+		(pin "10"
+			(uuid "f1722d5c-c8d8-40ac-b51f-fbbcf3e6947a")
+		)
+		(pin "5"
+			(uuid "b55ffaf7-f08a-4b11-9957-007185a53021")
+		)
+		(pin "3"
+			(uuid "9c1384fe-c116-44b6-9955-3c2eef6fdd95")
+		)
+		(pin "9"
+			(uuid "8f7ecb5b-3137-4f2d-8957-73d08246e3d4")
+		)
+		(pin "8"
+			(uuid "5d46af43-84e2-4e50-8e57-a1972c3cc619")
+		)
+		(pin "12"
+			(uuid "94915444-ad2f-4e70-9037-d6f7728d22d8")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "U6")
+					(unit 7)
 				)
 			)
 		)
@@ -12509,6 +13218,85 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Library:TestPoint_Harwin")
+		(at 107.95 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8715dbc-db96-4a8f-b028-34e5361831de")
+		(property "Reference" "TP4"
+			(at 113.03 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Harwin"
+			(at 113.03 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My Libraries:Harwin-S1751-46-Test-Point"
+			(at 107.95 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6864b1cf-84e8-42ee-9414-74ef6841f2f0")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -12613,162 +13401,6 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9aa2589-791c-49f7-a76f-0b2fd654bd94")
-		(property "Reference" "#PWR035"
-			(at 124.46 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "458bde44-7332-40ec-9f3b-bace642a53ae")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdb32383-8004-41f6-a13c-6c64975fe462")
-		(property "Reference" "#PWR036"
-			(at 124.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f368deb-3bb3-4f58-a602-2fbada0ecde6")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14042,97 +14674,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 119.38 162.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eedfd157-5093-4b41-8c58-5ceb90cbbd51")
-		(property "Reference" "R65"
-			(at 119.38 157.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 119.38 160.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 119.38 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 119.38 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 119.38 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fcef5a19-b3ad-4d9b-8e99-1be927a9b039")
-		)
-		(pin "2"
-			(uuid "85b9ecf6-67b3-43d5-9aad-19ec33bb4993")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 347.98 115.57 0)
 		(unit 1)
@@ -14393,6 +14934,85 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Library:TestPoint_Harwin")
+		(at 107.95 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc61f3b7-3718-44a0-a1c4-ca17b5042f20")
+		(property "Reference" "TP2"
+			(at 113.03 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Harwin"
+			(at 113.03 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My Libraries:Harwin-S1751-46-Test-Point"
+			(at 107.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abb7acd6-df73-4cf7-91f1-67661e5c7af0")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
