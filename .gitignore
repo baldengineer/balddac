@@ -43,6 +43,7 @@ fp-info-cache
 *.kicad_prl
 
 # Datasheets and other non-tracked stuff
-datasheets/*
+datasheets/
 .mcp/
 .konnect/
+design-review/
