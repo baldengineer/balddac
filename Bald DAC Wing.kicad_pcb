@@ -9,6 +9,8 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
+		(4 "In1.Cu" power "In1.Gnd.Cu")
+		(6 "In2.Cu" power "In2.3v3.Cu")
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -28,13 +30,75 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
-		(39 "User.1" user)
-		(41 "User.2" user)
-		(43 "User.3" user)
-		(45 "User.4" user)
 	)
 	(setup
-		(pad_to_mask_clearance 0)
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Red")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "prepreg")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "core")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Red")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0.051)
+		(solder_mask_min_width 0.1524)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -50,6 +114,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -11737,6 +11802,171 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_text "Z_Blank"
+		(at 94.3 72.45 0)
+		(layer "F.SilkS")
+		(uuid "9ec671b6-e5e2-412b-9dfa-8b508538b190")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "LCLKL"
+		(at 94.3 74.99 0)
+		(layer "F.SilkS")
+		(uuid "54a6edd2-8497-46ee-9d19-c02aa2c49c26")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "DAC_AB"
+		(at 94.3 77.53 0)
+		(layer "F.SilkS")
+		(uuid "a50d2654-dc36-4c61-88c1-60c5005a0670")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "REF_EN"
+		(at 94.3 80.07 0)
+		(layer "F.SilkS")
+		(uuid "131301f2-e225-43a8-9331-b6427ef63c53")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "LOE"
+		(at 94.3 82.61 0)
+		(layer "F.SilkS")
+		(uuid "e3182a13-e510-4522-9317-3d9cf66f9385")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "CS"
+		(at 94.3 85.15 0)
+		(layer "F.SilkS")
+		(uuid "fea9702a-242e-46d3-a1e7-4f938a124aa6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "D5"
+		(at 94.3 87.69 0)
+		(layer "F.SilkS")
+		(uuid "878ec386-01dd-47c6-adb8-68069a07a5de")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "D4"
+		(at 94.3 90.23 0)
+		(layer "F.SilkS")
+		(uuid "5d212983-0469-4296-94dc-d63a59a1c90a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "D3"
+		(at 94.3 92.77 0)
+		(layer "F.SilkS")
+		(uuid "cbd8e5de-e38a-49fd-922b-211a20bed83a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "D2"
+		(at 94.3 95.31 0)
+		(layer "F.SilkS")
+		(uuid "03764368-e91d-45c3-b36d-8943b56cbbb6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "D1"
+		(at 94.3 97.85 0)
+		(layer "F.SilkS")
+		(uuid "e99cb6f8-7885-49a3-800c-cc50edf3c5aa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "D0"
+		(at 94.3 100.39 0)
+		(layer "F.SilkS")
+		(uuid "aef9369d-f86d-45a7-8388-c3dedb6f2d7f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 94.3 102.93 0)
+		(layer "F.SilkS")
+		(uuid "02faf83a-2cfd-4f31-bce0-6a829418f979")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "AREF"
+		(at 94.3 105.47 0)
+		(layer "F.SilkS")
+		(uuid "a90a0fc1-ba05-4f93-8bf1-71be35a80e94")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "3V3"
+		(at 94.3 108.01 0)
+		(layer "F.SilkS")
+		(uuid "4aea83af-f4ef-4759-be74-c390c68c228d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
