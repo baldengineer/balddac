@@ -5814,6 +5814,12 @@
 		(uuid "dc29305b-cbcd-4d80-a39c-cc8a083cf92d")
 	)
 	(junction
+		(at 185.42 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e53a52c0-bca5-479d-84dd-a92bf2f7720c")
+	)
+	(junction
 		(at 373.38 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6869,7 +6875,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 123.19) (xy 187.96 123.19)
+			(xy 177.8 123.19) (xy 185.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7706,6 +7712,16 @@
 			(type default)
 		)
 		(uuid "f242f5bb-2c0c-4d8e-a516-9aaf9a33b6ef")
+	)
+	(wire
+		(pts
+			(xy 185.42 123.19) (xy 187.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29ae1fd-8245-40a3-a9ca-c703354c9273")
 	)
 	(wire
 		(pts
@@ -8976,6 +8992,96 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Library:TestPoint_Harwin")
+		(at 219.71 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04cda388-0f50-412d-be59-a685eba45677")
+		(property "Reference" "TP12"
+			(at 222.25 119.8879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Harwin"
+			(at 219.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My Libraries:Harwin-S1751-46-Test-Point"
+			(at 224.79 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 219.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3029083"
+			(at 219.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d78dce83-269c-42e7-83c0-d273e90a2743")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -11006,7 +11112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 312.1152 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -11679,7 +11785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 323.5452 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12658,6 +12764,96 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Library:TestPoint_Harwin")
+		(at 185.42 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "645732eb-7c2b-451d-ad36-dac97f578ee4")
+		(property "Reference" "TP13"
+			(at 187.96 119.8879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Harwin"
+			(at 185.42 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My Libraries:Harwin-S1751-46-Test-Point"
+			(at 190.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3029083"
+			(at 185.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e0d7ca3-3e4d-460b-a723-e0ab1a7c62d1")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
