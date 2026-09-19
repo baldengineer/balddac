@@ -4235,6 +4235,12 @@
 		(uuid "6c6078a4-7ce2-47aa-acf6-70afd70d00f0")
 	)
 	(junction
+		(at 299.72 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cb8ed62-46f0-454b-b419-c07ffadcc480")
+	)
+	(junction
 		(at 113.03 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4299,12 +4305,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3ab35d1-1468-44ba-aa4a-6d5a410a23f5")
-	)
-	(junction
-		(at 299.72 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3da8ebf-d12a-480e-8bad-9fb26383b31f")
 	)
 	(junction
 		(at 373.38 148.59)
@@ -4410,6 +4410,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 71.12) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aef2756-0384-4e3b-86ea-4177bde95fd9")
+	)
+	(wire
+		(pts
 			(xy 292.1 168.91) (xy 294.64 168.91)
 		)
 		(stroke
@@ -4457,6 +4467,16 @@
 			(type default)
 		)
 		(uuid "13a3fb2a-ca4d-431e-8464-550f26b15008")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 128.27 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145c6bf1-e866-4010-9dcb-058745a64df8")
 	)
 	(wire
 		(pts
@@ -4800,6 +4820,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 55.88) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400bd9b3-003e-42c8-9649-51e1681bcea5")
+	)
+	(wire
+		(pts
 			(xy 179.07 87.63) (xy 179.07 90.17)
 		)
 		(stroke
@@ -4827,6 +4857,16 @@
 			(type default)
 		)
 		(uuid "47a2ca70-4c6d-4a45-a2f0-a9426b224830")
+	)
+	(wire
+		(pts
+			(xy 118.11 63.5) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4936fce8-15de-45a9-8a1f-5f8f78fc6cf4")
 	)
 	(wire
 		(pts
@@ -4867,6 +4907,16 @@
 			(type default)
 		)
 		(uuid "4d12ddaa-d7ca-48f6-baa3-d23e11c7ccaf")
+	)
+	(wire
+		(pts
+			(xy 118.11 68.58) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e09c281-458b-49c9-896e-e578b0d112a0")
 	)
 	(wire
 		(pts
@@ -5020,6 +5070,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 66.04) (xy 128.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a4fd93-bda5-46c7-ac90-fd8ad8c3e44d")
+	)
+	(wire
+		(pts
 			(xy 233.68 232.41) (xy 233.68 234.95)
 		)
 		(stroke
@@ -5120,6 +5180,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 58.42) (xy 128.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb1c665-81fe-4038-8283-2aaa713e8236")
+	)
+	(wire
+		(pts
 			(xy 124.46 110.49) (xy 118.11 110.49)
 		)
 		(stroke
@@ -5170,6 +5240,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 53.34) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e35a05b-7553-4986-840b-01150413e2d0")
+	)
+	(wire
+		(pts
 			(xy 372.11 91.44) (xy 331.47 91.44)
 		)
 		(stroke
@@ -5207,6 +5287,16 @@
 			(type default)
 		)
 		(uuid "810c50f0-9d1c-4d10-83a0-426b96d4111a")
+	)
+	(wire
+		(pts
+			(xy 118.11 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8146d0b7-1e7f-40be-b965-ffbe00477940")
 	)
 	(wire
 		(pts
@@ -5347,6 +5437,16 @@
 			(type default)
 		)
 		(uuid "8efd6cfb-9ed0-47a5-bfb6-72a1b9befff4")
+	)
+	(wire
+		(pts
+			(xy 118.11 50.8) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907588de-5e3b-4a07-9e5c-1dd14c03d22a")
 	)
 	(wire
 		(pts
@@ -5920,6 +6020,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 48.26) (xy 128.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f119145b-62dc-4996-9557-388137fe7c22")
+	)
+	(wire
+		(pts
 			(xy 331.47 72.39) (xy 341.63 72.39)
 		)
 		(stroke
@@ -5977,6 +6087,16 @@
 			(type default)
 		)
 		(uuid "fa4719b6-025f-4384-b14e-1b4436ee8e7e")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4da585-eab6-4c39-a325-8427913ff0f3")
 	)
 	(wire
 		(pts
@@ -6038,6 +6158,16 @@
 		)
 		(uuid "0a051abd-c297-4229-aac0-2bf32184012a")
 	)
+	(label "DB9"
+		(at 118.11 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a88a87f-971c-4813-9aef-693f58b672a3")
+	)
 	(label "LCLKH"
 		(at 194.31 179.07 0)
 		(effects
@@ -6048,6 +6178,16 @@
 		)
 		(uuid "0adfc918-14d5-4405-9bfd-436843b6dc95")
 	)
+	(label "DB3"
+		(at 118.11 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e3bd9a2-ea2d-4fcc-8067-b0cfd6973a27")
+	)
 	(label "DB7"
 		(at 269.24 92.71 0)
 		(effects
@@ -6057,6 +6197,16 @@
 			(justify left bottom)
 		)
 		(uuid "15c8ebf8-47e0-46b8-8e29-a71df2b00aa7")
+	)
+	(label "DB8"
+		(at 118.11 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18052aab-38cf-488d-8a5d-7270e3f3e563")
 	)
 	(label "D2"
 		(at 194.31 77.47 0)
@@ -6147,6 +6297,16 @@
 			(justify right bottom)
 		)
 		(uuid "3c4b681d-61f3-4efb-ab7e-622132ab5f58")
+	)
+	(label "DB1"
+		(at 118.11 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "408ef3dc-a0cf-4102-8227-87641eb25770")
 	)
 	(label "REF_EN"
 		(at 269.24 171.45 0)
@@ -6278,6 +6438,16 @@
 		)
 		(uuid "6a0ff808-70e9-42ff-85ee-a192e0ca1b7a")
 	)
+	(label "DB5"
+		(at 118.11 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d36b0ea-138e-4939-996d-d2fb3c4eaccd")
+	)
 	(label "DB1"
 		(at 269.24 107.95 0)
 		(effects
@@ -6297,6 +6467,26 @@
 			(justify left bottom)
 		)
 		(uuid "6fafad5e-c70c-401c-a17d-a9c9df42621d")
+	)
+	(label "DB7"
+		(at 118.11 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72815126-5b96-4862-b861-50be368de6a0")
+	)
+	(label "DB2"
+		(at 118.11 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "760aa608-28a0-4aa5-bfef-fe0df58ba201")
 	)
 	(label "DB8"
 		(at 241.3 80.01 180)
@@ -6327,6 +6517,16 @@
 			(justify right bottom)
 		)
 		(uuid "7ac2e28c-29b4-4cf7-afc4-ba5db291b942")
+	)
+	(label "DB0"
+		(at 118.11 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "885ed061-40bb-4483-a8cc-679170c34ead")
 	)
 	(label "DB9"
 		(at 241.3 77.47 180)
@@ -6488,6 +6688,16 @@
 		)
 		(uuid "b54e9b7b-17ab-4a6c-bb2c-e7ecee3c8c0d")
 	)
+	(label "DB6"
+		(at 118.11 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6535444-fe40-404f-971b-62c30522020c")
+	)
 	(label "DB1"
 		(at 241.3 166.37 180)
 		(effects
@@ -6618,6 +6828,26 @@
 		)
 		(uuid "e798e846-37d6-4a2e-beb6-b28cd45bed2a")
 	)
+	(label "DB10"
+		(at 118.11 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f23e17a0-1fe6-4c30-bd63-5494199275e4")
+	)
+	(label "DB4"
+		(at 118.11 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f665faf9-8294-4e70-8563-e501883ab340")
+	)
 	(label "D5"
 		(at 194.31 85.09 0)
 		(effects
@@ -6627,6 +6857,16 @@
 			(justify left bottom)
 		)
 		(uuid "f678ac5e-cc72-476c-bc50-3cb4850a598b")
+	)
+	(label "DB11"
+		(at 118.11 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6842abd-22e5-4802-be60-2474ba7476ff")
 	)
 	(symbol
 		(lib_id "74xx:74HCT574")
@@ -7108,7 +7348,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7370,6 +7610,83 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b281f72-82d4-4eea-b056-1f08cd5abe93")
+		(property "Reference" "#PWR059"
+			(at 165.1 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ef5ba69-58d4-4bcd-8016-46b33c49250e")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7760,6 +8077,98 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 299.72 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "125f4c82-896d-40a4-a948-110b9e202005")
+		(property "Reference" "C12"
+			(at 303.53 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 303.53 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 300.6852 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28323"
+			(at 299.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8af256b-fe13-4692-bda7-98c387aaeff0")
+		)
+		(pin "2"
+			(uuid "de1649f6-de3f-417a-939d-f7e130e78adb")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9526,7 +9935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10uF"
 			(at 314.96 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9570,7 +9979,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C380347"
 			(at 311.15 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10356,7 +10765,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10833,7 +11242,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11120,7 +11529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10uF"
 			(at 347.98 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11164,7 +11573,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C380347"
 			(at 344.17 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11213,7 +11622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10uF"
 			(at 359.41 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11257,7 +11666,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C380347"
 			(at 355.6 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11278,6 +11687,99 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 265.43 170.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fb9e89a-2aa6-4de5-9703-ce99230ed710")
+		(property "Reference" "C11"
+			(at 261.62 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 261.62 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 264.4648 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 265.43 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28323"
+			(at 265.43 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e169567-d800-4124-8447-b88b577c541e")
+		)
+		(pin "2"
+			(uuid "0a46ed92-5935-4a9a-a294-2a9a86fe3a5a")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11458,7 +11960,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11534,98 +12036,6 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 299.72 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78bd65b9-db61-4cac-8b26-1a800d7e5377")
-		(property "Reference" "C12"
-			(at 303.53 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 303.53 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 300.6852 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 299.72 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C28323"
-			(at 299.72 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93e11127-2d8e-4cc7-9ac1-16d918419ec7")
-		)
-		(pin "2"
-			(uuid "a5e23975-cf27-4084-9003-3bce1e869d14")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11888,7 +12298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10uF"
 			(at 231.14 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11932,7 +12342,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C380347"
 			(at 227.33 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12133,7 +12543,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13098,7 +13508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10uF"
 			(at 360.68 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13142,7 +13552,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C380347"
 			(at 356.87 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13523,8 +13933,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 265.43 170.18 0)
-		(mirror y)
+		(at 165.1 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13532,9 +13941,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "abdf3444-2aab-474f-b4d5-593d4e229caa")
-		(property "Reference" "C11"
-			(at 261.62 168.9099 0)
+		(uuid "ab6295e5-2141-40a7-8bb6-11da395e76cc")
+		(property "Reference" "C15"
+			(at 168.91 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13545,7 +13954,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 261.62 171.4499 0)
+			(at 168.91 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13556,7 +13965,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 264.4648 173.99 0)
+			(at 166.0652 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13567,7 +13976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 170.18 0)
+			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13578,7 +13987,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 265.43 170.18 0)
+			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13589,7 +13998,7 @@
 			)
 		)
 		(property "LCSC" "C28323"
-			(at 265.43 170.18 0)
+			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13600,15 +14009,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "54ff8bf5-d4af-44c3-ba57-bf8494d23042")
+			(uuid "b1e1e5cc-f745-4d7c-b8d4-6deaad31e87c")
 		)
 		(pin "2"
-			(uuid "9e9c64b9-72b3-49dc-8582-7356b0a34cbf")
+			(uuid "381aa2f5-8274-4d57-8ccd-27099abc72ec")
 		)
 		(instances
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13784,7 +14193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10uF"
 			(at 237.49 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13828,7 +14237,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C380347"
 			(at 233.68 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -14186,6 +14595,83 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 165.1 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba394132-2037-4861-a5da-a1c063cbd29a")
+		(property "Reference" "#PWR058"
+			(at 165.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 165.1 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 165.1 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32768724-931a-4f9b-939e-ff44f94aec12")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -14579,7 +15065,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10uF"
 			(at 246.38 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14623,7 +15109,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C380347"
 			(at 242.57 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14672,7 +15158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10uF"
 			(at 372.11 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14716,7 +15202,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C380347"
 			(at 368.3 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15620,7 +16106,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
