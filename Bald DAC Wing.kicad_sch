@@ -1118,6 +1118,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -5446,10 +5604,22 @@
 		(uuid "14d4144b-d8f3-45a6-8608-7c3b5b822d5a")
 	)
 	(junction
+		(at 240.03 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c4eaed-5e21-4f40-8b0b-7a7ef874ee98")
+	)
+	(junction
 		(at 299.72 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1966fd1c-28bf-4de8-8262-3ae23cf039a3")
+	)
+	(junction
+		(at 88.9 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1984f00f-3081-41fd-8d69-801179436780")
 	)
 	(junction
 		(at 331.47 104.14)
@@ -5474,12 +5644,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b2595b2-d3b1-4d11-ae6b-83a33cc1de96")
-	)
-	(junction
-		(at 91.44 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b800a6e-cf0a-459d-ae6a-1982e3208527")
 	)
 	(junction
 		(at 265.43 166.37)
@@ -5542,12 +5706,6 @@
 		(uuid "6d8f8c5a-98a0-4bb8-b59a-b1120d0a32e3")
 	)
 	(junction
-		(at 88.9 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "749a44bf-af88-4c0d-8404-7a5a787515bc")
-	)
-	(junction
 		(at 372.11 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5558,6 +5716,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cb8ed62-46f0-454b-b419-c07ffadcc480")
+	)
+	(junction
+		(at 88.9 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "832eae6e-d9b5-41ba-b5e8-acd16f1e8542")
 	)
 	(junction
 		(at 240.03 142.24)
@@ -5668,6 +5832,34 @@
 		(uuid "f160314c-881e-4a3e-8942-edcc33e1fa02")
 	)
 	(no_connect
+		(at 73.66 149.86)
+		(uuid "07ddacc6-0cb2-4d4c-8d07-0f04dd8a9331")
+	)
+	(no_connect
+		(at 73.66 182.88)
+		(uuid "32a3d9a9-647e-4e56-b8e2-7d3c602965c1")
+	)
+	(no_connect
+		(at 73.66 139.7)
+		(uuid "4939b6ba-fcc7-430e-8fcf-4ea7d915ba72")
+	)
+	(no_connect
+		(at 73.66 180.34)
+		(uuid "5bec93b0-464f-4f5c-b209-ce53b4da5020")
+	)
+	(no_connect
+		(at 91.44 129.54)
+		(uuid "65ad6f57-e499-4de0-90fa-37bd3677891e")
+	)
+	(no_connect
+		(at 73.66 147.32)
+		(uuid "6e5ec515-7d3b-4e87-9323-afc6dffcf0d5")
+	)
+	(no_connect
+		(at 73.66 154.94)
+		(uuid "6f50be5c-063e-40a2-a17a-a8255528ed20")
+	)
+	(no_connect
 		(at 83.82 129.54)
 		(uuid "7b3126bc-e0f4-4289-8363-65ef443e33fd")
 	)
@@ -5676,8 +5868,20 @@
 		(uuid "8166dc2c-43cf-4f3d-81ea-d8f4a2906991")
 	)
 	(no_connect
+		(at 73.66 142.24)
+		(uuid "ba24e387-5413-44be-bc2d-83b3e75b052a")
+	)
+	(no_connect
 		(at 99.06 139.7)
 		(uuid "d71a5802-88f4-4008-ad0c-f2812ffc5331")
+	)
+	(no_connect
+		(at 73.66 144.78)
+		(uuid "d8ae6e9d-8ac4-4ca3-a26d-ee8053c7cd15")
+	)
+	(no_connect
+		(at 73.66 152.4)
+		(uuid "e117ccd9-b832-49e1-8d85-d6a8a2dd2039")
 	)
 	(no_connect
 		(at 99.06 147.32)
@@ -5875,6 +6079,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 104.14) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145a2df1-87e7-4fbe-a281-db88721b0811")
+	)
+	(wire
+		(pts
 			(xy 262.89 129.54) (xy 252.73 129.54)
 		)
 		(stroke
@@ -5972,16 +6186,6 @@
 			(type default)
 		)
 		(uuid "1f25ab78-8573-4683-b660-bf005026e2a2")
-	)
-	(wire
-		(pts
-			(xy 129.54 242.57) (xy 129.54 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f2d4b16-5b8e-453a-aaae-c53ee1798a8a")
 	)
 	(wire
 		(pts
@@ -6155,16 +6359,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 127) (xy 91.44 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35cb9428-97b9-400f-972a-a117dac86506")
-	)
-	(wire
-		(pts
 			(xy 323.85 97.79) (xy 327.66 97.79)
 		)
 		(stroke
@@ -6195,7 +6389,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 120.65) (xy 88.9 125.73)
+			(xy 88.9 113.03) (xy 88.9 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6305,16 +6499,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 88.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4309e02a-217e-4f01-a720-d25718fd01b6")
-	)
-	(wire
-		(pts
 			(xy 269.24 110.49) (xy 279.4 110.49)
 		)
 		(stroke
@@ -6332,6 +6516,16 @@
 			(type default)
 		)
 		(uuid "49c17e62-6ef9-4a16-9878-9dc19c3df625")
+	)
+	(wire
+		(pts
+			(xy 88.9 115.57) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aab722e-9dd5-4caf-a739-ba5b642d02f9")
 	)
 	(wire
 		(pts
@@ -6415,26 +6609,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 232.41) (xy 129.54 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59889f8e-7f86-43a6-8918-29370dda1b4e")
-	)
-	(wire
-		(pts
-			(xy 175.26 241.3) (xy 175.26 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59fa4d8f-1825-4bf4-be72-8b17b7d00549")
-	)
-	(wire
-		(pts
 			(xy 227.33 140.97) (xy 227.33 143.51)
 		)
 		(stroke
@@ -6455,7 +6629,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 146.05) (xy 240.03 142.24)
+			(xy 240.03 146.05) (xy 240.03 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6885,6 +7059,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 144.78) (xy 240.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89435296-3c3c-4cbe-8192-f9b2d07f55a2")
+	)
+	(wire
+		(pts
 			(xy 320.04 85.09) (xy 320.04 78.74)
 		)
 		(stroke
@@ -6952,16 +7136,6 @@
 			(type default)
 		)
 		(uuid "9345eb50-a412-4403-ac44-2d4727c4d855")
-	)
-	(wire
-		(pts
-			(xy 129.54 254) (xy 129.54 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "937e3578-9f4b-459c-9b86-19b09135848f")
 	)
 	(wire
 		(pts
@@ -7215,16 +7389,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 127) (xy 91.44 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31f233d-1f4a-4617-83fe-9511f419d321")
-	)
-	(wire
-		(pts
 			(xy 241.3 158.75) (xy 231.14 158.75)
 		)
 		(stroke
@@ -7335,16 +7499,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 252.73) (xy 175.26 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3caec3f-ff56-483e-97e2-719f5dddd1fe")
-	)
-	(wire
-		(pts
 			(xy 240.03 132.08) (xy 240.03 134.62)
 		)
 		(stroke
@@ -7402,16 +7556,6 @@
 			(type default)
 		)
 		(uuid "dbf55b32-a2d3-4447-8ca3-bd2a6e8a837f")
-	)
-	(wire
-		(pts
-			(xy 175.26 231.14) (xy 175.26 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf9c421-b004-45dd-bbf8-871093002718")
 	)
 	(wire
 		(pts
@@ -7492,6 +7636,16 @@
 			(type default)
 		)
 		(uuid "e991812e-c87c-42c2-998e-23b627856f28")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 88.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf99f97-17f9-485a-ac25-c50a4b636e94")
 	)
 	(wire
 		(pts
@@ -8669,83 +8823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 91.44 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "02ecbb97-acfb-4618-848a-7a39464751c6")
-		(property "Reference" "#PWR019"
-			(at 91.44 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Vusb"
-			(at 91.44 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3dc2beec-aa01-4008-8474-5518a166f6d4")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "My Library:AD5447")
 		(at 293.37 96.52 0)
 		(unit 1)
@@ -9741,84 +9818,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 175.26 255.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17e51c4e-6cd8-4b1a-a462-49b56be68150")
-		(property "Reference" "#PWR023"
-			(at 175.26 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 260.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9aa2270e-8d8f-4701-b54e-b71cb9661188")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Module:Adafruit_Feather_Generic")
 		(at 86.36 160.02 0)
 		(unit 1)
@@ -10052,99 +10051,6 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 129.54 238.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ed61b5a-c89e-4125-84cd-17d3e307fe8d")
-		(property "Reference" "D3"
-			(at 133.35 239.0774 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Vusb"
-			(at 133.35 241.6174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 129.54 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 129.54 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7496832"
-			(at 129.54 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c8ee043-cfde-4eca-9cc9-a716dfdb2fa6")
-		)
-		(pin "2"
-			(uuid "8cd0ecab-4a41-473a-bac5-79ea72eb6fe3")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11428,7 +11334,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 88.9 125.73 90)
+		(at 88.9 106.68 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11439,7 +11345,7 @@
 		(fields_autoplaced yes)
 		(uuid "4538c3db-810e-4582-934a-097912c5630c")
 		(property "Reference" "#FLG01"
-			(at 86.995 125.73 0)
+			(at 90.805 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11450,7 +11356,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 85.09 125.7299 90)
+			(at 92.71 106.6801 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11462,7 +11368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 125.73 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +11379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 125.73 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11484,7 +11390,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 88.9 125.73 0)
+			(at 88.9 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11587,7 +11493,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 88.9 120.65 0)
+		(at 88.9 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11597,7 +11503,7 @@
 		(dnp no)
 		(uuid "48605c17-8c77-4a15-9aa9-32ea269f92a6")
 		(property "Reference" "#PWR018"
-			(at 88.9 124.46 0)
+			(at 88.9 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11608,7 +11514,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.9 117.094 0)
+			(at 88.9 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11618,7 +11524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 120.65 0)
+			(at 88.9 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11629,7 +11535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 120.65 0)
+			(at 88.9 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11640,7 +11546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 120.65 0)
+			(at 88.9 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13192,99 +13098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 129.54 250.19 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71a366a2-febb-4d9f-bf8d-0e474a54e9e3")
-		(property "Reference" "R63"
-			(at 132.08 248.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 132.08 251.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 131.318 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 129.54 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 129.54 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1149f9d4-8aa0-4677-b291-bbaaf6832f3d")
-		)
-		(pin "2"
-			(uuid "7cfd9fd5-d0ad-4977-9fed-9616f22cbcf6")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 325.12 78.74 90)
 		(unit 1)
@@ -13370,6 +13183,86 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 83.82 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76985264-d9de-4b7c-9259-94373f5227a8")
+		(property "Reference" "J1"
+			(at 83.82 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 83.82 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 83.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "754ebb9e-d3f5-4395-85ac-cf64360b982e")
+		)
+		(pin "1"
+			(uuid "1a670847-ae80-4e1d-a2f5-02f12ac2a4d0")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14672,84 +14565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 175.26 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dc1edc2-77f3-487f-8dc0-9388320a4f32")
-		(property "Reference" "#PWR022"
-			(at 175.26 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 175.26 226.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 175.26 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "323bc37b-f0f6-4a25-929d-9808d316e1f9")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 179.07 173.99 0)
 		(mirror y)
@@ -15994,99 +15809,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 175.26 248.92 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c767422a-132e-4ed5-bc1f-14ba20e3fb82")
-		(property "Reference" "R62"
-			(at 177.8 247.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 177.8 250.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 177.038 248.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 175.26 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 175.26 248.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ade7ccdc-addf-4635-b86a-86cd074c400a")
-		)
-		(pin "2"
-			(uuid "f211c3c6-af0d-49a2-b7d8-3a567ba81141")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "My Library:TestPoint_Harwin")
 		(at 233.68 173.99 270)
 		(unit 1)
@@ -16171,188 +15893,6 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 175.26 237.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9005ec2-4bbc-4a4d-87ec-0766000e6b98")
-		(property "Reference" "D2"
-			(at 179.07 237.8074 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PwrB+"
-			(at 179.07 240.3474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 175.26 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 175.26 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7496832"
-			(at 175.26 237.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6699813-7625-4c94-8bfb-e057a49f65fd")
-		)
-		(pin "2"
-			(uuid "d9bc13b8-fb79-4ff8-bacf-91a4a5d31b9a")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 129.54 232.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca1f4d74-c578-4e8c-b6c6-fd8db048afcf")
-		(property "Reference" "#PWR020"
-			(at 129.54 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Vusb"
-			(at 129.54 227.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 129.54 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33e351a2-c992-403c-805a-7900bf50c5fc")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16539,84 +16079,6 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 256.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5523374-6a3c-43b6-bf93-8e4cb2d102c0")
-		(property "Reference" "#PWR021"
-			(at 129.54 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 261.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "902b2ecd-5fc7-4ec3-b9f9-3c9d2cb1538b")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17155,86 +16617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 91.44 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6327da2-51ad-4ff3-a3a9-c2cb795d7107")
-		(property "Reference" "#FLG02"
-			(at 93.345 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 95.25 127.0001 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 91.44 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10346928-10d3-4056-b7cf-41e44f655935")
-		)
-		(instances
-			(project "Bald DAC Wing"
-				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "My Library:TestPoint_Harwin")
 		(at 331.47 91.44 0)
 		(unit 1)
@@ -17571,6 +16953,86 @@
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f45e6794-725e-4106-abfc-a102fa49040a")
+		(property "Reference" "#FLG02"
+			(at 90.805 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 92.71 115.5701 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4832f62-61ea-4e27-991c-e81546ead9f0")
+		)
+		(instances
+			(project "Bald DAC Wing"
+				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
