@@ -64,7 +64,7 @@
 				)
 			)
 		)
-		(property "LCSC" "[C187836](https://www.lcsc.com/product-detail/C187836.html?s_z=n_q_REF3425&spm=wm.fly.bg.0.cbh&lcsc_vid=Q1AIUQJRT1INXgYEFVQKUgEDQAUMX1xSElRZVFxRFFMxVlNeT1VeV1ZfT1RbVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D \"C187836\")"
+		(property "LCSC" "C187836"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
