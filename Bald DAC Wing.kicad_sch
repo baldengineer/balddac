@@ -8306,6 +8306,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 160.02 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "987d8604-ee19-42cd-bd48-4144697da3ca")
 		)
@@ -8609,6 +8620,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 257.81 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "18"
 			(uuid "42c873d3-3be4-4f33-9571-648760b8e2ad")
 		)
@@ -8757,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Mouser" "538-73100-0105 "
+		(property "Mouser" "538-73100-0105"
 			(at 402.59 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8780,6 +8802,17 @@
 			)
 		)
 		(property "Drawing" "file:///C:/Users/balde/Downloads/731000105_sd.pdf"
+			(at 402.59 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 402.59 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8873,6 +8906,17 @@
 			)
 		)
 		(property "LCSC" "N/A"
+			(at 374.65 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 374.65 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9355,6 +9399,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 207.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "517ef96d-0d4e-4e7d-88c6-eae9165ddbf7")
 		)
@@ -9454,7 +9509,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C15850"
+			(at 281.94 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 281.94 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9546,6 +9612,17 @@
 			)
 		)
 		(property "LCSC" "C25804"
+			(at 132.08 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 132.08 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -9716,7 +9793,7 @@
 				)
 			)
 		)
-		(property "Mouser" "538-73100-0105 "
+		(property "Mouser" "538-73100-0105"
 			(at 402.59 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9739,6 +9816,17 @@
 			)
 		)
 		(property "Drawing" "file:///C:/Users/balde/Downloads/731000105_sd.pdf"
+			(at 402.59 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 402.59 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9998,6 +10086,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 295.91 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b11f0e67-bc60-4db7-b64a-b5f160a38c54")
 		)
@@ -10078,6 +10177,17 @@
 			)
 		)
 		(property "LCSC" "C282244"
+			(at 288.29 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 288.29 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10256,6 +10366,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 313.69 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6245417-373a-4767-a1a7-734770af0936")
 		)
@@ -10415,6 +10536,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 78.74 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -10716,6 +10848,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 140.97 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c95cf186-9ca9-4a5f-aa66-a355b19aacdd")
 		)
@@ -10949,7 +11092,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C307331"
+			(at 293.37 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 293.37 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -11043,6 +11197,17 @@
 			)
 		)
 		(property "LCSC" "N/A"
+			(at 374.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 374.65 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11216,7 +11381,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C380347"
+		(property "LCSC" "C15850"
+			(at 275.59 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 275.59 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11623,6 +11799,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 80.01 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "9adaa0f2-71eb-41ae-a2c5-1d85657af3a4")
 		)
@@ -11746,7 +11933,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C307331"
+			(at 304.8 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 304.8 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -11839,7 +12037,7 @@
 				)
 			)
 		)
-		(property "Mouser" "538-73100-0105 "
+		(property "Mouser" "538-73100-0105"
 			(at 402.59 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11862,6 +12060,17 @@
 			)
 		)
 		(property "Drawing" "file:///C:/Users/balde/Downloads/731000105_sd.pdf"
+			(at 402.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 402.59 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12031,6 +12240,17 @@
 			)
 		)
 		(property "LCSC" "C187836"
+			(at 266.7 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 266.7 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -12224,6 +12444,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 281.94 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44692117-65bc-4edb-946c-bf6c7f154726")
 		)
@@ -12304,6 +12535,17 @@
 			)
 		)
 		(property "LCSC" "N/A"
+			(at 273.05 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 273.05 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12713,6 +12955,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 273.05 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Bald DAC Wing"
 				(path "/9844f4b9-7968-409e-b23a-8854509b3e89"
@@ -12789,7 +13042,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C380347"
+		(property "LCSC" "C15850"
+			(at 308.61 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 308.61 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12882,7 +13146,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C15850"
+			(at 247.65 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 247.65 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13062,6 +13337,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 289.56 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4906a4d-8bb5-404c-ae07-f44616b4a744")
 		)
@@ -13132,6 +13418,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 58.42 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13225,6 +13522,17 @@
 			)
 		)
 		(property "LCSC" "N/A"
+			(at 273.05 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 273.05 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -13781,7 +14089,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C380347"
+		(property "LCSC" "C15850"
+			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 168.91 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13950,6 +14269,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 204.47 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3753d8b0-d073-4803-98bf-32a296dba40c")
 		)
@@ -14059,6 +14389,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 280.67 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec407950-dd9b-4d2d-b15b-c2e1a6a33528")
 		)
@@ -14142,6 +14483,17 @@
 			)
 		)
 		(property "LCSC" "N/A"
+			(at 273.05 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 273.05 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -14373,6 +14725,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 207.01 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 207.01 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14874,7 +15237,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C380347"
+		(property "LCSC" "C15850"
+			(at 321.31 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 321.31 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15044,7 +15418,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C15850"
+			(at 106.68 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 106.68 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15138,6 +15523,17 @@
 			)
 		)
 		(property "LCSC" "C7672"
+			(at 160.02 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 160.02 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -15284,7 +15680,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C380347"
+		(property "LCSC" "C15850"
+			(at 233.68 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 233.68 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -15545,6 +15952,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 252.73 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44e9977a-aa0c-4a5d-94c6-4870930b7d40")
 		)
@@ -15625,6 +16043,17 @@
 			)
 		)
 		(property "LCSC" "C3029083"
+			(at 295.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 295.91 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15947,7 +16376,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C380347"
+		(property "LCSC" "C15850"
+			(at 184.15 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 184.15 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16040,8 +16480,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C7496832"
+		(property "LCSC" "C2297"
 			(at 144.78 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 144.78 238.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16220,6 +16671,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 313.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40d94eea-b22b-4e74-8fbb-7d799555a2e0")
 		)
@@ -16313,6 +16775,17 @@
 		)
 		(property "LCSC" "C21190"
 			(at 144.78 250.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 144.78 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16491,6 +16964,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 132.08 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f643f865-4c92-4478-8523-dc8cfd6b7ea6")
 		)
@@ -16652,6 +17136,17 @@
 			)
 		)
 		(property "LCSC" "N/A"
+			(at 373.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 373.38 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16903,6 +17398,17 @@
 			)
 		)
 		(property "LCSC" "C7827"
+			(at 144.78 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 144.78 130.81 0)
 			(hide yes)
 			(show_name no)
