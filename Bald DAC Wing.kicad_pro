@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.1524,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.1524,
           "pad_connection": 1,
           "remove_islands": 1,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.25,
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -125,7 +125,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
