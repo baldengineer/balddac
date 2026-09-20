@@ -3290,8 +3290,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "A"
-				(at -10.16 29.21 0)
+			(property "Reference" "A1"
+				(at 2.1433 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3302,7 +3302,7 @@
 				)
 			)
 			(property "Value" "Adafruit_Feather_Generic"
-				(at 2.54 -31.75 0)
+				(at 2.1433 -35.56 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3663,222 +3663,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -20.32 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -22.86 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 20.32 0)
-					(length 2.54)
-					(name "D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 17.78 0)
-					(length 2.54)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 15.24 0)
-					(length 2.54)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 30.48 270)
-					(length 2.54)
-					(name "USB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 30.48 270)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5836,62 +5620,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f160314c-881e-4a3e-8942-edcc33e1fa02")
-	)
-	(no_connect
-		(at 73.66 149.86)
-		(uuid "07ddacc6-0cb2-4d4c-8d07-0f04dd8a9331")
-	)
-	(no_connect
-		(at 73.66 182.88)
-		(uuid "32a3d9a9-647e-4e56-b8e2-7d3c602965c1")
-	)
-	(no_connect
-		(at 73.66 139.7)
-		(uuid "4939b6ba-fcc7-430e-8fcf-4ea7d915ba72")
-	)
-	(no_connect
-		(at 73.66 180.34)
-		(uuid "5bec93b0-464f-4f5c-b209-ce53b4da5020")
-	)
-	(no_connect
-		(at 91.44 129.54)
-		(uuid "65ad6f57-e499-4de0-90fa-37bd3677891e")
-	)
-	(no_connect
-		(at 73.66 147.32)
-		(uuid "6e5ec515-7d3b-4e87-9323-afc6dffcf0d5")
-	)
-	(no_connect
-		(at 73.66 154.94)
-		(uuid "6f50be5c-063e-40a2-a17a-a8255528ed20")
-	)
-	(no_connect
-		(at 83.82 129.54)
-		(uuid "7b3126bc-e0f4-4289-8363-65ef443e33fd")
-	)
-	(no_connect
-		(at 99.06 149.86)
-		(uuid "8166dc2c-43cf-4f3d-81ea-d8f4a2906991")
-	)
-	(no_connect
-		(at 73.66 142.24)
-		(uuid "ba24e387-5413-44be-bc2d-83b3e75b052a")
-	)
-	(no_connect
-		(at 99.06 139.7)
-		(uuid "d71a5802-88f4-4008-ad0c-f2812ffc5331")
-	)
-	(no_connect
-		(at 73.66 144.78)
-		(uuid "d8ae6e9d-8ac4-4ca3-a26d-ee8053c7cd15")
-	)
-	(no_connect
-		(at 73.66 152.4)
-		(uuid "e117ccd9-b832-49e1-8d85-d6a8a2dd2039")
-	)
-	(no_connect
-		(at 99.06 147.32)
-		(uuid "fa4e726f-4817-4fa9-bdda-1866701aae76")
 	)
 	(wire
 		(pts
@@ -9991,18 +9719,6 @@
 				)
 			)
 		)
-		(pin "17"
-			(uuid "c829989a-28a1-4b74-b755-a56aa4c04622")
-		)
-		(pin "18"
-			(uuid "3415d58e-673b-429f-a22a-603f8f32d7ac")
-		)
-		(pin "19"
-			(uuid "7d96d387-3c07-4168-b11d-4a330f489c58")
-		)
-		(pin "21"
-			(uuid "7044e04d-0075-4a57-9b33-7e0ec903891e")
-		)
 		(pin "10"
 			(uuid "f6785c00-2cca-4eaf-a19b-8b8604239673")
 		)
@@ -10012,17 +9728,8 @@
 		(pin "9"
 			(uuid "a132c4b5-6b8e-47aa-ade2-004ec0830dad")
 		)
-		(pin "26"
-			(uuid "4d89c740-2255-4431-aabb-a4997714c3ae")
-		)
 		(pin "16"
 			(uuid "36e6f8e5-ba64-45e9-8ef9-3b451689a8ba")
-		)
-		(pin "27"
-			(uuid "e0ba35bd-62a2-428f-a8c1-b9dca7486ee2")
-		)
-		(pin "28"
-			(uuid "dd16190e-7a7c-4044-9e31-6222613d9c54")
 		)
 		(pin "5"
 			(uuid "26395dde-2281-4b72-9b4e-a235a40194ff")
@@ -10047,21 +9754,6 @@
 		)
 		(pin "14"
 			(uuid "270d42cf-274d-4da9-b94a-e49f781f9bbe")
-		)
-		(pin "20"
-			(uuid "84ba2ae1-307a-4814-ac0f-fd682298739e")
-		)
-		(pin "22"
-			(uuid "a1c15e92-5553-4a09-9193-542d29dcdb4a")
-		)
-		(pin "24"
-			(uuid "dd159965-ef33-43c5-8804-99ffa8216a4d")
-		)
-		(pin "25"
-			(uuid "031b60cb-0964-406f-90cf-570dfcdc3f4a")
-		)
-		(pin "23"
-			(uuid "b0138e7b-cb76-48be-a552-a639b67141c3")
 		)
 		(pin "1"
 			(uuid "3905d806-c221-487f-b1ad-af7117bd1949")
