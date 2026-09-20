@@ -3,14 +3,14 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.60596)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(4 "In1.Cu" power "In1.Gnd.Cu")
-		(6 "In2.Cu" power "In2.3v3.Cu")
+		(4 "In1.Cu" signal)
+		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -30,75 +30,81 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
 	)
 	(setup
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
-				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Red")
-				(thickness 0.01)
+				(thickness 0.01524)
+				(material "JLCPCB LPI soldermask")
+				(epsilon_r 3.8)
+				(loss_tangent 0)
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.04064)
 			)
 			(layer "dielectric 1"
-				(type "core")
-				(thickness 0.48)
-				(material "FR4")
-				(epsilon_r 4.5)
+				(type "prepreg")
+				(thickness 0.0994)
+				(material "Nan Ya NP-155F 3313")
+				(epsilon_r 4.1)
 				(loss_tangent 0.02)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 2"
-				(type "prepreg")
-				(thickness 0.48)
-				(material "FR4")
-				(epsilon_r 4.5)
+				(type "core")
+				(thickness 1.265)
+				(material "Nan Ya NP-155F core")
+				(epsilon_r 4.43)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 3"
-				(type "core")
-				(thickness 0.48)
-				(material "FR4")
-				(epsilon_r 4.5)
+				(type "prepreg")
+				(thickness 0.0994)
+				(material "Nan Ya NP-155F 3313")
+				(epsilon_r 4.1)
 				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.04064)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Red")
-				(thickness 0.01)
+				(thickness 0.01524)
+				(material "JLCPCB LPI soldermask")
+				(epsilon_r 3.8)
+				(loss_tangent 0)
 			)
 			(layer "B.Paste"
 				(type "Bottom Solder Paste")
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
-				(color "White")
 			)
 			(copper_finish "None")
-			(dielectric_constraints no)
+			(dielectric_constraints yes)
 		)
-		(pad_to_mask_clearance 0.051)
-		(solder_mask_min_width 0.1524)
+		(pad_to_mask_clearance 0)
+		(solder_mask_min_width 0.1)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -114,6 +120,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -1445,7 +1452,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1cec9a68-38da-4078-b580-23864581b3a9")
-		(at 133.5 88.2175)
+		(at 133.5 88.71)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
@@ -1667,7 +1674,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/OUT_A")
+			(net "GND")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "d4d954ac-ecc6-4e7f-a45f-ca8772e9bdeb")
@@ -1678,7 +1685,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
+			(net "/OUT_A")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "cae8a39d-dc3d-4c6a-83db-d4d889631c37")
@@ -4316,13 +4323,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5dd7b897-c210-4d31-9681-3033637a7d13")
-		(at 133.5 102.54 180)
+		(at 133.5 105.49 180)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J3"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "115fa8eb-10d3-4af7-8f5b-75bc06a84635")
+			(uuid "244df630-324b-44bc-8454-e93640558240")
 			(effects
 				(font
 					(size 1 1)
@@ -4333,7 +4340,7 @@
 		(property "Value" "DAC_B_Out"
 			(at 0 7.46 0)
 			(layer "F.Fab")
-			(uuid "c20af77c-2060-4c42-aa53-c5f2d8d430b7")
+			(uuid "0278b32a-53c0-4b90-bab8-59f8ec556904")
 			(effects
 				(font
 					(size 1 1)
@@ -4345,7 +4352,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47fcefe7-0684-4286-9abc-fa2bb811a1ac")
+			(uuid "6a0ba151-82b1-406f-a7ea-662670ecf9d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4363,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b27d5c3-d9c2-4d88-afc4-0c8af28be466")
+			(uuid "f49d085b-d58d-4b2a-86e4-85c30c358bfe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4545,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/OUT_B")
+			(net "GND")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "bcd062cd-9b17-469b-bec4-5898e6fb28c7")
@@ -4549,7 +4556,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
+			(net "/OUT_B")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "0cddcf1a-44e7-4d8f-bd00-33e4ad103290")
@@ -6357,7 +6364,7 @@
 		(property "Reference" "J11"
 			(at 0 -15.8 0)
 			(layer "F.SilkS")
-			(uuid "8fcb88a7-4d17-4bba-9a0a-2dc3c3e89d99")
+			(uuid "5f6c65a7-2a67-434a-bc2c-d513e6080299")
 			(effects
 				(font
 					(size 1 1)
@@ -6368,7 +6375,7 @@
 		(property "Value" "BNC_B"
 			(at 0 -15.8 0)
 			(layer "F.Fab")
-			(uuid "98ad3757-6576-4caa-bb22-8949d390b60e")
+			(uuid "ff5310f0-2cef-4800-b2a1-ab7da8478874")
 			(effects
 				(font
 					(size 1 1)
@@ -6380,7 +6387,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4ca0343-eab3-45c1-aabf-103cbc197202")
+			(uuid "a3bdfa82-5a46-4008-a596-c8486ca5f36b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6398,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d43a61ca-b309-4ecc-be09-973fdf5d4fba")
+			(uuid "4ab8056c-c01e-479a-974c-762842a96520")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,7 +11418,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "effe4a14-291c-4c8a-a65c-0bfe6d557a01")
-		(at 133.5 78.46)
+		(at 133.5 77.01)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J5"
@@ -11633,7 +11640,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J5-Pin_1-Pad1)")
+			(net "GND")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "482bb851-10f2-4be1-8293-6bd46e370700")
@@ -11644,7 +11651,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
+			(net "/Z_Blank")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "62795494-babc-4c1a-936b-c3d6bb19f4c3")

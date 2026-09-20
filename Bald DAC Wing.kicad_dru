@@ -1,0 +1,44 @@
+(version 1)
+
+# JLCPCB 4-layer rigid-board fabrication rules.
+# Values checked against JLCPCB's current Rigid PCB Capabilities on 2026-09-20.
+# These supplement the global minimums in the .kicad_pro file.
+
+(rule "JLCPCB SMD pad-to-pad, different nets"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD' && A.Net != B.Net")
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "JLCPCB pad-to-track, different nets"
+	(condition "A.Type == 'Pad' && B.Type == 'Track' && A.Net != B.Net")
+	(constraint clearance (min 0.10mm))
+)
+
+(rule "JLCPCB PTH annular ring"
+	(condition "A.Type == 'Pad' && A.isPlated()")
+	(constraint annular_width (min 0.15mm))
+)
+
+(rule "JLCPCB PTH hole-to-track, different nets"
+	(condition "A.Type == 'Pad' && A.isPlated() && B.Type == 'Track' && A.Net != B.Net")
+	(constraint hole_clearance (min 0.28mm))
+)
+
+(rule "JLCPCB NPTH hole-to-track"
+	(condition "A.Type == 'Pad' && !A.isPlated() && B.Type == 'Track'")
+	(constraint physical_hole_clearance (min 0.20mm))
+)
+
+(rule "JLCPCB minimum NPTH diameter"
+	(condition "A.Type == 'Pad' && !A.isPlated()")
+	(constraint hole_size (min 0.50mm))
+)
+
+(rule "JLCPCB pad hole-to-hole"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'")
+	(constraint hole_to_hole (min 0.45mm))
+)
+
+(rule "JLCPCB maximum drilled-hole diameter"
+	(constraint hole_size (max 6.30mm))
+)
